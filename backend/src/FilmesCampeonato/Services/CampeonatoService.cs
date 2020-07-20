@@ -7,10 +7,6 @@ namespace Api.Services
     public class CampeonatoService
 
     {
-        //public List<Filme> filmesRecebido { get; set; }
-        //public static List<Filme> vencedores { get; set; }
-
-
         public CampeonatoService()
         {
 
@@ -18,27 +14,21 @@ namespace Api.Services
 
         public  List<Filme> IniciarPartida(List<Filme> filmes)
         {
-            //filmesRecebido = filmes;
-
             var semiFinalistas = PrimeiraPartida(filmes);
             var finalistas = SegundaPartida(semiFinalistas);
 
             return UltimaPartida(finalistas);
-
         }
 
         public List<Filme> PrimeiraPartida(List<Filme> filmes)
         {
             var vencedoresPrimeiraFase = new List<Filme>();
-
             for(int i = 0; i < filmes.Count / 2; i++)
             {
                 var filme1 = filmes[i];
                 var filme2 = filmes[filmes.Count - i - 1];
-
                 vencedoresPrimeiraFase.Add(CompararNotas(filme1, filme2));
             }
-
             return vencedoresPrimeiraFase;
         }
 
@@ -50,10 +40,8 @@ namespace Api.Services
                 {
                     var filme1 = filmes[i];
                     var filme2 = filmes[i +1];
-
-                finalistas.Add(CompararNotas(filme1, filme2));
+                    finalistas.Add(CompararNotas(filme1, filme2));
                 }
-
             return finalistas;
         }
 
@@ -63,28 +51,15 @@ namespace Api.Services
             var viceCampeao = filmes.Where(filme => filme != vencedor).FirstOrDefault();
             var resultadoFinal = new List<Filme> { vencedor, viceCampeao };
 
-            //foreach (Filme filme in filmes)
-            //{
-            //    if(filme != vencedor)
-            //    {
-            //        viceCampeao = filme;
-
-            //    } 
-            //}
-            //resultadoFinal.Add(vencedor);
-            //resultadoFinal.Add(viceCampeao);
             return resultadoFinal;
         }
 
         public Filme OrdenarAlfabeto(Filme filme1, Filme filme2)
         {
             var listarOrdemAlfabetica = new List<Filme> { filme1, filme2 };
-           
-
             IEnumerable<Filme> resultado = listarOrdemAlfabetica.OrderBy(filme => filme.Titulo);
 
             return resultado.First();
-
         }
 
         public Filme CompararNotas(Filme filme1, Filme filme2)
@@ -96,14 +71,9 @@ namespace Api.Services
             else if (filme2.Nota > filme1.Nota)
             {
                 return filme2;
-            }
-            else
-            {
+            } else {
                 return OrdenarAlfabeto(filme1, filme2);
             }
         }
-
- 
-
     }
 }

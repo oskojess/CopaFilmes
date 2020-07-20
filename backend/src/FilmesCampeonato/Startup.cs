@@ -24,9 +24,7 @@ namespace Api
             services.AddControllers();
             services.AddTransient<CampeonatoService>();
             services.AddHttpClient<FilmeService>();
-            services.AddCors(opt => opt.AddDefaultPolicy(builder =>
-                builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
-
+            services.AddCors(opt => opt.AddDefaultPolicy(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

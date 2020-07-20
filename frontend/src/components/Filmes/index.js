@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from "react-router-dom";
 
-import { getFilmes } from '../../services/FilmeService';
+import { obterFilmes } from '../../services/FilmeService';
 
 import { Box, Button, Grid, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
@@ -16,11 +16,8 @@ const ListaFilmes = () => {
 
   useEffect(() => {
     const fetchDados = async () => {
-      // const response = await axios('/filmes');
-      // const { data } = response;
-      // data.sort((a, b) => (a.titulo > b.titulo) ? 1 : -1)
-
-      setFilmes(getFilmes());
+      const resultado = await obterFilmes();
+      setFilmes(resultado);
     };
     fetchDados();
   }, []);
@@ -39,9 +36,9 @@ const ListaFilmes = () => {
     setSelecionados([...filtrarFilmes]);
   }
 
-  function handleClick() {
-    rodarCampeonato(filmesSelecionados);
-    history.push("/campeoes");
+  async function handleClick() {
+    const campeoes = await rodarCampeonato(filmesSelecionados);
+    history.push("/campeoes", campeoes);
   }
 
   const classes = useStyles();
@@ -100,7 +97,6 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "250px",
     background: "#FFF"
   },
-
   box: {
     marginTop: 10,
     display: "flex",

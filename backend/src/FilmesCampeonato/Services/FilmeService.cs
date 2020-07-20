@@ -17,20 +17,16 @@ namespace Api.Services
             cliente.DefaultRequestHeaders.Add("Accept", "application/json");
             cliente.DefaultRequestHeaders.Add("User-Agent","HttpClientFactory-Sample");
 
-            Cliente = cliente;
-            
+            Cliente = cliente;  
         }
 
         public async Task<List<Filme>> ObterFilmes() 
         {
             var response = await Cliente.GetAsync(Cliente.BaseAddress);
             response.EnsureSuccessStatusCode();
-
             var responseStream = await response.Content.ReadAsStringAsync();
+
             return JsonConvert.DeserializeObject<List<Filme>>(responseStream);
-
         }
-        
-
     }
 }

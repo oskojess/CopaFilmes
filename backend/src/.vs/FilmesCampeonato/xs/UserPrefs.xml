@@ -1,40 +1,23 @@
 ﻿<Properties StartupConfiguration="{2F994452-9A22-4A56-81EF-0E515D5AF217}|MoviesCup">
   <MonoDevelop.Ide.ItemProperties.src.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FilmesCampeonato/Api.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FilmesCampeonato/Controllers/FilmeController.cs">
     <Files>
-      <File FileName="FilmesCampeonato/Controllers/FilmeController.cs" Line="8" Column="2" />
-      <File FileName="FilmesCampeonato/Services/CampeonatoService.cs" Line="25" Column="1" />
-      <File FileName="FilmesCampeonato/Services/FilmeService.cs" Line="1" Column="1" />
-      <File FileName="FilmesCampeonato/Startup.cs" Line="25" Column="34" />
-      <File FileName="FilmesCampeonato/Program.cs" Line="1" Column="1" />
-      <File FileName="FilmesCampeonato/appsettings.json" Line="9" Column="21" />
-      <File FileName="FilmesCampeonato/Api.csproj" Line="1" Column="1" />
+      <File FileName="FilmesCampeonato/Controllers/FilmeController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FilmesCampeonato" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="Api" expanded="True" selected="True">
+              <Node name="Api" expanded="True">
                 <Node name="Dependencies" expanded="True">
-                  <Node name="PackageDependencies" expanded="True">
-                    <Node name="Microsoft.AspNet.WebApi.Cors" expanded="True" />
-                  </Node>
+                  <Node name="PackageDependencies" expanded="True" />
                 </Node>
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="FilmeController.cs" selected="True" />
+                </Node>
+                <Node name="Services" expanded="True" />
               </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="FilmesCampeonato" expanded="True" selected="True">
-            <Node name="testes" expanded="True">
-              <Node name="FilmesCamponato.Testes" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -45,9 +28,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCamponato.Testes/CampeonatoServiceTeste.cs" relfile="FilmesCamponato.Testes/CampeonatoServiceTeste.cs" line="20" column="1" />
-      <Breakpoint enabled="false" file="/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/Services/CampeonatoService.cs" relfile="FilmesCampeonato/Services/CampeonatoService.cs" line="42" column="1" />
-      <Breakpoint enabled="false" file="/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/Services/CampeonatoService.cs" relfile="FilmesCampeonato/Services/CampeonatoService.cs" line="61" column="1" />
+      <Breakpoint enabled="false" file="/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCamponato.Testes/CampeonatoServiceTeste.cs" relfile="FilmesCamponato.Testes/CampeonatoServiceTeste.cs" line="20" column="1" />
+      <Breakpoint enabled="false" file="/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCampeonato/Services/CampeonatoService.cs" relfile="FilmesCampeonato/Services/CampeonatoService.cs" line="49" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

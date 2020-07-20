@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj": {}
+    "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj": {}
   },
   "projects": {
-    "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/Api.csproj": {
+    "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCampeonato/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/Api.csproj",
+        "projectUniqueName": "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCampeonato/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/Api.csproj",
+        "projectPath": "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCampeonato/Api.csproj",
         "packagesPath": "/Users/retsuko/.nuget/packages/",
-        "outputPath": "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/obj/",
+        "outputPath": "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCampeonato/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/retsuko/.config/NuGet/NuGet.Config"
@@ -36,10 +36,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNet.WebApi.Cors": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -67,14 +63,14 @@
         }
       }
     },
-    "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj": {
+    "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj",
+        "projectUniqueName": "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj",
         "projectName": "FilmesCamponato.Testes",
-        "projectPath": "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj",
+        "projectPath": "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCamponato.Testes/FilmesCamponato.Testes.csproj",
         "packagesPath": "/Users/retsuko/.nuget/packages/",
-        "outputPath": "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCamponato.Testes/obj/",
+        "outputPath": "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCamponato.Testes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/retsuko/.config/NuGet/NuGet.Config"
@@ -88,8 +84,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/Api.csproj": {
-                "projectPath": "/Users/retsuko/Documents/projeto-copa-filmes/backend/src/FilmesCampeonato/Api.csproj"
+              "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCampeonato/Api.csproj": {
+                "projectPath": "/Users/retsuko/Documents/CopaFilmes/backend/src/FilmesCampeonato/Api.csproj"
               }
             }
           }

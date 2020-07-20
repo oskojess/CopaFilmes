@@ -10,7 +10,6 @@ namespace Api.Controllers
     [Route("[controller]")]
     public class FilmeController : ControllerBase
     {
-
      private readonly FilmeService filmeService;
      private readonly CampeonatoService campeonatoService;
 
@@ -18,12 +17,11 @@ namespace Api.Controllers
         {
             this.filmeService = filmeService;
             this.campeonatoService = campeonatoService;
-
         }
 
         [HttpPost]
         [Route("api/campeonato")]
-        public ActionResult PostFilmes(List<Filme> filmes)
+        public ActionResult PostFilmes([FromBody] List<Filme> filmes)
         {
             if (filmes.Count < 8)
             {
@@ -36,9 +34,7 @@ namespace Api.Controllers
         [Route("api/filmes")]
         public async Task<List<Filme>> GetFilmes()
         {
-
             return await filmeService.ObterFilmes();
         }
-
     }
 }

@@ -10,25 +10,25 @@ Selecione os seus filmes preferidos e descubra qual será o campeão, caso houve
 **Backend:** ASP.NET CORE 3.1
 **Frontend:** ReactJS
 
-## Executar Copa Filmes localmente
+### Executar Copa Filmes localmente
 
 Para executar localmente, você terá que clonar o repositório.
 Após acessar o diretório do projeto, siga os passos para rodar o backend e frontend.
  
-### Backend
+#### Backend
 URL: `https://localhost:5001/filme/api/`
 
-#### Visual Studio 
+##### Visual Studio 
 Abrir o arquivo `FilmesCampeonato.sin`
 
-#### Terminal 
+##### Terminal 
 Acessar o diretório `src/FilmesCampeonato`
 
 Buildar:  `dotnet build`
 
 Executar: `dotnet watch run`
 
-### Frontend
+#### Frontend
 URL: `http://localhost:3000/`
 
 NPM: `npm install && npm start`

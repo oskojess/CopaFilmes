@@ -8,13 +8,11 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px; 
+    font-family: Arial, Helvetica, sans-serif;
     background: #DADADA;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased; 
   }
-
   html, body, #root{
     height: 100%;
   }

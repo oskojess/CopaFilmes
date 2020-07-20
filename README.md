@@ -12,7 +12,8 @@ Selecione os seus filmes preferidos e descubra qual será o campeão, caso houve
 
 ## Executar Copa Filmes localmente
 
-Para executar localmente, você terá que clonar o repositório. Após acessar o diretório do projeto, siga os passos para rodar o backend e frontend.
+Para executar localmente, você terá que clonar o repositório.
+Após acessar o diretório do projeto, siga os passos para rodar o backend e frontend.
  
 ### Backend
 URL: `https://localhost:5001/filme/api/`

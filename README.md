@@ -21,12 +21,15 @@ URL: `https://localhost:5001/filme/api/`
 Abrir o arquivo `FilmesCampeonato.sin`
 
 #### Terminal 
-Acessar o diretório **FilmesCampeonato**
+Acessar o diretório `src/FilmesCampeonato`
+
 Buildar:  `dotnet build`
+
 Executar: `dotnet watch run`
 
 ### Frontend
 URL: `http://localhost:3000/`
 
 NPM: `npm install && npm start`
+
 YARN: `yarn install && yarn start`

@@ -1,8 +1,8 @@
 # Copa Filmes
 
->O campeonato é realizado a partir das notas dos filmes selecionados.
+O campeonato é realizado a partir das notas dos filmes selecionados.
 
->Selecione os seus filmes preferidos e descubra qual será o campeão, caso houver empate, o vencedor será decidido pela ordem alfabetica. 
+Selecione os seus filmes preferidos e descubra qual será o campeão, caso houver empate, o vencedor será decidido pela ordem alfabetica. 
 
 
 ## Tecnologias utilizadas

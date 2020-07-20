@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{B132E9E6-6B42-40A2-A6B2-F0B81D6983BA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MoviesCup PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoviesCup/Models/Movie.cs">
+    <Files>
+      <File FileName="MoviesCup/Controllers/MovieController.cs" Line="16" Column="36" />
+      <File FileName="MoviesCup/Controllers/WeatherForecastController.cs" Line="26" Column="1" />
+      <File FileName="MoviesCup/Models/Movie.cs" Line="7" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MoviesCup" expanded="True">
+            <Node name="MoviesCup" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Movie.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
